@@ -1,0 +1,182 @@
+* {
+   margin: 50px;
+    /* can put just margin if wanting all four */
+}
+body{
+    background: rgb(232, 245, 252) ;
+}
+
+h1{
+    color: rgb(3, 20, 250);
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 350px;
+}
+
+
+#container {
+    background: rgba(173, 218, 248, 0.788);
+    border-style: dashed;
+    border-color: rgb(69, 5, 245);
+    border-width: 8px;
+    width: 300px;
+    color: rgb(1, 17, 245);
+    position: absolute;
+    top: 238px;
+    left: 600px;
+
+}
+
+#shape {
+    height: 50px;
+    width: 500px;
+    background: rgba(173, 218, 248, 0.788);
+    color: rgb(4, 120, 253);
+    border-radius: 20px;
+    position: absolute;
+    top: 161px;
+    left: 510px;
+}
+
+h4{
+    position: absolute;
+    top: -43px;
+    left: -22px;
+    font-family: 'Fredoka', sans-serif;;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background: blueviolet;
+    border-radius: 200px; /*makes round shapes*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#larger-circle{ 
+    position: absolute;
+    top: -274px;
+    left: -243px;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 100%;
+    opacity: 30%;
+    z-index: -10;
+}
+
+#second-circle {
+    position: absolute;
+    top: 723px;
+    left: 1070px;
+    height: 750px;
+    width: 750px;
+    border-radius: 100%;
+    opacity: 15%;
+    z-index: -10;
+}
+
+
+a {
+    text-decoration: underline;
+    position: absolute;
+    top: 1901px;
+    left: 73px;
+}
+
+a:visited {
+    color:rgb(3, 145, 155)
+}
+
+a:hover{
+    color: rgb(225, 1, 255);
+    text-decoration: none;
+}
+
+.desktop {
+    width: 352.125px;
+    height: 234.875px;
+    position: absolute;
+    top: 1253px;
+    left: 636px;
+}
+
+.first {
+    width: 231px;
+    height: 346.5px;
+    position: absolute;
+    top: 1184px;
+    left: 1325px;
+}
+.caption {
+    font-size: 10px;
+    color: rgb(70, 158, 187);
+    background: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 2500px;
+}
+
+.process {
+    color: rgb(13, 0, 128);
+    background: rgb(236, 245, 248);
+    text-transform: capitalize; /* uppercase, lowercase, capitalize */
+    line-height: normal; /* changes distance between line. can set to normal, in px value*/
+    letter-spacing: 15px; /* changes tracking. can set to normal, in px value */
+    font-size: 14px;
+    position: absolute;
+    top: 1150px;
+    left: 255px;
+}
+
+h3 {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 985px;
+    left: 76px;
+}
+
+.screenshots{
+    width:334.6px;
+    height:182px;
+}
+
+#badscreenshot1 {
+    position: absolute;
+    top: 1609px;
+    left: 305px;
+}
+
+#badscreenshot2 {
+    position: absolute;
+    top: 1609px;
+    left: 987px;
+}
+
+#take-two {
+    position: absolute;
+    transform: scale(0.03);
+    top: -4187px;
+    left: -3506px;
+}
+
+#final{
+    transform: scale(25%);
+    position: absolute;
+    top: -352px ;
+    left: -792px;
+}
+
+#first-p{
+    position: absolute;
+    top: 1052px;
+    left: 76px;
+}
+
+#second-p {
+    position: absolute;
+    top: 1827px;
+    left: 76px;
+}
